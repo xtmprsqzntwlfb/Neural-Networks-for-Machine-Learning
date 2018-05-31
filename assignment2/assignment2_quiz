@@ -1,0 +1,113 @@
+model=train(10) %hyperparams=default
+
+Average Training CE 2.535
+Finished Training.
+Final Training CE 2.535
+Final Validation CE 2.605
+Final Test CE 2.615
+Training took 1759.14 seconds
+
+
+model=train(10) %learning rate=0.0001, other hyperparams=default
+
+Average Training CE 4.384
+Finished Training.
+Final Training CE 4.384
+Final Validation CE 4.385
+Final Test CE 4.392
+Training took 1747.46 seconds
+
+
+allzeroes: CE 5.521
+
+
+Model A: Learning rate = 0.001,
+Model B: Learning rate = 0.1
+Model C: Learning rate = 10.0.
+momentum = 0.5, default settings for all other hyperparameters, 1 epoch
+
+A:
+Average Training CE 4.566
+Finished Training.
+Final Training CE 4.566
+Final Validation CE 4.432
+Final Test CE 4.439
+B:
+Average Training CE 4.405
+Finished Training.
+Final Training CE 4.405
+Final Validation CE 4.394
+Final Test CE 4.402
+C:
+Average Training CE 3.664
+Finished Training.
+Final Training CE 3.664
+Final Validation CE 3.373
+Final Test CE 3.382
+
+----------------------------10 epochs
+A:
+Average Training CE 4.380
+Finished Training.
+Final Training CE 4.380
+Final Validation CE 4.382
+Final Test CE 4.388
+B:
+Average Training CE 2.934
+Finished Training.
+Final Training CE 2.934
+Final Validation CE 2.926
+Final Test CE 2.925
+C:
+Average Training CE 3.286
+Finished Training.
+Final Training CE 3.286
+Final Validation CE 3.268
+Final Test CE 3.275
+
+
+Model A: 5 dimensional embedding, 100 dimensional hidden layer
+Model B: 50 dimensional embedding, 10 dimensional hidden layer
+Model C: 50 dimensional embedding, 200 dimensional hidden layer
+Model D: 100 dimensional embedding, 5 dimensional hidden layer
+default values for all other hyperparameters
+
+A:
+Final Training CE 2.811
+Final Validation CE 2.833
+Final Test CE 2.839
+B:
+Final Training CE 3.004
+Final Validation CE 3.017
+Final Test CE 3.014
+C:
+Final Training CE 2.537
+Final Validation CE 2.608
+Final Test CE 2.617
+D:
+Final Training CE 3.224
+Final Validation CE 3.229
+Final Test CE 3.225
+
+
+
+50 dimensional embedding space, 200 dimensional hidden layer.
+    Model A: Momentum = 0.0
+Final Training CE 3.988
+Final Validation CE 3.949
+Final Test CE 3.952
+    Model B: Momentum = 0.5
+Final Training CE 3.324
+Final Validation CE 3.259
+Final Test CE 3.257
+    Model C: Momentum = 0.9
+Final Training CE 2.715
+Final Validation CE 2.718
+Final Test CE 2.725
+
+
+
+
+
+
+

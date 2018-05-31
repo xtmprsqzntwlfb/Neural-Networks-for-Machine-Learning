@@ -1,0 +1,189 @@
+a3(wd_coefficient, n_hid, n_iters, learning_rate, momentum_multiplier, do_early_stopping, mini_batch_size)
+
+LR: 0.002, 0.01, 0.05, 0.2, 1.0, 5.0, and 20.0
+Momentum: 0.0 and 0.9
+
+a3(0, 10, 70, 0.002, 0, false, 4)
+The loss on the training data is 2.304283
+a3(0, 10, 70, 0.002, 0.9, false, 4)
+The loss on the training data is 2.300135
+a3(0, 10, 70, 0.01, 0.9, false, 4)
+The loss on the training data is 2.284022
+a3(0, 10, 70, 0.05, 0.9, false, 4)
+The loss on the training data is 2.008606
+a3(0, 10, 70, 0.2, 0.9, false, 4)
+The loss on the training data is 1.083429
+a3(0, 10, 70, 1.0, 0.9, false, 4)
+The loss on the training data is 2.018723
+a3(0, 10, 70, 5.0, 0.9, false, 4)
+The loss on the training data is 2.302585
+a3(0, 10, 70, 20.0, 0.9, false, 4)
+The loss on the training data is 2.302585
+
+
+a3(0, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.002614
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.430185
+The classification error rate on the validation data is 0.087000
+The loss on the test data is 0.464988
+The classification error rate on the test data is 0.093778
+
+a3(0, 200, 1000, 0.35, 0.9, true, 100)
+Early stopping: validation loss was lowest after 161 iterations. We chose the model that we had then.
+The loss on the training data is 0.071471
+The classification error rate on the training data is 0.017000
+The loss on the validation data is 0.334505
+The classification error rate on the validation data is 0.095000
+The loss on the test data is 0.371140
+The classification error rate on the test data is 0.098556
+
+
+a3(0, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.002614
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.430185
+The classification error rate on the validation data is 0.087000
+The loss on the test data is 0.464988
+The classification error rate on the test data is 0.093778
+
+a3(0.0001, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.047568
+The classification loss (i.e. without weight decay) on the training data is 0.007561
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.388301
+The classification loss (i.e. without weight decay) on the validation data is 0.348294
+The classification error rate on the validation data is 0.085000
+The loss on the test data is 0.409104
+The classification loss (i.e. without weight decay) on the test data is 0.369097
+The classification error rate on the test data is 0.090778
+
+a3(0.001, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.245358
+The classification loss (i.e. without weight decay) on the training data is 0.070793
+The classification error rate on the training data is 0.005000
+The loss on the validation data is 0.462475
+The classification loss (i.e. without weight decay) on the validation data is 0.287910
+The classification error rate on the validation data is 0.090000
+The loss on the test data is 0.464538
+The classification loss (i.e. without weight decay) on the test data is 0.289973
+The classification error rate on the test data is 0.086556
+
+a3(0.01, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 1.005982
+The classification loss (i.e. without weight decay) on the training data is 0.442156
+The classification error rate on the training data is 0.061000
+The loss on the validation data is 1.073589
+The classification loss (i.e. without weight decay) on the validation data is 0.509763
+The classification error rate on the validation data is 0.091000
+The loss on the test data is 1.075059
+The classification loss (i.e. without weight decay) on the test data is 0.511233
+The classification error rate on the test data is 0.097556
+
+a3(1, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 2.302585
+The classification loss (i.e. without weight decay) on the training data is 2.302585
+The classification error rate on the training data is 0.900000
+The loss on the validation data is 2.302585
+The classification loss (i.e. without weight decay) on the validation data is 2.302585
+The classification error rate on the validation data is 0.900000
+The loss on the test data is 2.302585
+The classification loss (i.e. without weight decay) on the test data is 2.302585
+The classification error rate on the test data is 0.900000
+
+a3(5, 200, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 2.302585
+The classification loss (i.e. without weight decay) on the training data is 2.302585
+The classification error rate on the training data is 0.900000
+The loss on the validation data is 2.302585
+The classification loss (i.e. without weight decay) on the validation data is 2.302585
+The classification error rate on the validation data is 0.900000
+The loss on the test data is 2.302585
+The classification loss (i.e. without weight decay) on the test data is 2.302585
+The classification error rate on the test data is 0.900000
+
+
+a3(0, 10, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.011050
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.421705
+The classification error rate on the validation data is 0.107000
+The loss on the test data is 0.389471
+The classification error rate on the test data is 0.100333
+
+a3(0, 30, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.004042
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.317077
+The classification error rate on the validation data is 0.078000
+The loss on the test data is 0.364651
+The classification error rate on the test data is 0.087222
+
+a3(0, 100, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.002849
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.368593
+The classification error rate on the validation data is 0.082000
+The loss on the test data is 0.408845
+The classification error rate on the test data is 0.086444
+
+a3(0, 130, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.002715
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.397597
+The classification error rate on the validation data is 0.087000
+The loss on the test data is 0.418396
+The classification error rate on the test data is 0.088667
+
+a3(0, 170, 1000, 0.35, 0.9, false, 100)
+The loss on the training data is 0.002659
+The classification error rate on the training data is 0.000000
+The loss on the validation data is 0.426223
+The classification error rate on the validation data is 0.082000
+The loss on the test data is 0.470443
+The classification error rate on the test data is 0.092111
+
+
+a3(0, 18, 1000, 0.35, 0.9, true, 100)
+The loss on the training data is 0.037047
+The classification error rate on the training data is 0.002000
+The loss on the validation data is 0.306083
+The classification error rate on the validation data is 0.092000
+The loss on the test data is 0.284525
+The classification error rate on the test data is 0.083000
+
+a3(0, 37, 1000, 0.35, 0.9, true, 100)
+The loss on the training data is 0.038770
+The classification error rate on the training data is 0.002000
+The loss on the validation data is 0.265165
+The classification error rate on the validation data is 0.081000
+The loss on the test data is 0.282510
+The classification error rate on the test data is 0.084333
+
+a3(0, 83, 1000, 0.35, 0.9, true, 100)
+The loss on the training data is 0.059285
+The classification error rate on the training data is 0.007000
+The loss on the validation data is 0.311244
+The classification error rate on the validation data is 0.083000
+The loss on the test data is 0.337624
+The classification error rate on the test data is 0.092778
+
+a3(0, 113, 1000, 0.35, 0.9, true, 100)
+The loss on the training data is 0.064678
+The classification error rate on the training data is 0.014000
+The loss on the validation data is 0.313749
+The classification error rate on the validation data is 0.093000
+The loss on the test data is 0.347098
+The classification error rate on the test data is 0.094667
+
+a3(0, 236, 1000, 0.35, 0.9, true, 100)
+The loss on the training data is 0.076253
+The classification error rate on the training data is 0.017000
+The loss on the validation data is 0.343841
+The classification error rate on the validation data is 0.095000
+The loss on the test data is 0.339124
+The classification error rate on the test data is 0.094111
+
+
+
+
